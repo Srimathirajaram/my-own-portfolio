@@ -1,7 +1,7 @@
 /* hero background image */
 body {
     height:100vh;
-    background: url('https://img.freepik.com/premium-photo/laptop-sits-wooden-table-with-glass-wine_1124573-33014.jpg?semt=ais_hybrid');
+    background: url('https://img.freepik.com/premium-photo/high-angle-view-smart-phone-table_1048944-15199370.jpg?semt=ais_hybrid');
     background-size:cover;
     position:relative;
     
@@ -979,6 +979,7 @@ body {
       font-size: 23px;
       line-height: 38px;
     }
+  }
       /* For mobile devices (small screens) */
       @media screen and (max-width: 768px) {
         /* Your mobile-specific styles here */
@@ -989,4 +990,3 @@ body {
             width: 100%; /* Example: Make images full width */
         }
     }
-  }
