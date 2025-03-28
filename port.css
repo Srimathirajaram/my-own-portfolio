@@ -1,7 +1,7 @@
 /* hero background image */
 body {
     height:100vh;
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsqcleca_7WkG6-awRdZK2L-tG7gJ8359aGg&s');
+    background: url('https://img.freepik.com/premium-photo/high-angle-view-smart-phone-table_1048944-15199370.jpg?semt=ais_hybrid');
     background-size:cover;
     position:relative;
     
@@ -978,5 +978,15 @@ body {
       width: 35px;
       font-size: 23px;
       line-height: 38px;
+    }
+      /* For mobile devices (small screens) */
+      @media screen and (max-width: 768px) {
+        /* Your mobile-specific styles here */
+        .container {
+            width: 100%; /* Example: Make a container full width */
+        }
+        img {
+            width: 100%; /* Example: Make images full width */
+        }
     }
   }
