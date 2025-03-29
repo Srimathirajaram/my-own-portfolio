@@ -989,4 +989,16 @@ body {
 body {
   font-family: "Lucida Sans", sans-serif;
 }
+}
+
+      /* For mobile devices (small screens) */
+      @media screen and (max-width: 768px) {
+        /* Your mobile-specific styles here */
+        .container {
+            width: 100%; /* Example: Make a container full width */
+        }
+        img {
+            width: 100%; /* Example: Make images full width */
+        }
+    }
 
