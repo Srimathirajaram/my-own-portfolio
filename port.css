@@ -990,13 +990,3 @@ body {
   font-family: "Lucida Sans", sans-serif;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main main right'
-    'footer footer footer footer footer footer';
-  gap: 10px;
-  background-color: white;
-  padding: 10px;
-}
