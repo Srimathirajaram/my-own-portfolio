@@ -980,13 +980,23 @@ body {
       line-height: 38px;
     }
   }
-      /* For mobile devices (small screens) */
-      @media screen and (max-width: 768px) {
-        /* Your mobile-specific styles here */
-        .container {
-            width: 100%; /* Example: Make a container full width */
-        }
-        img {
-            width: 100%; /* Example: Make images full width */
-        }
-    }
+     <style>
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main right'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
